@@ -1,0 +1,44 @@
+# Файлы индексации
+*.exp
+*.tmp
+*~
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
+npm-debug.log*
+
+# Зависимости (если будут добавлены)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Файлы конфигурации с секретными данными
+.env
+.env.local
+.env.*.local
+config.js
+.gitignore
+
+# Резервные копии
+*.bak
+*.backup
+*-
+
+# Кэш
+.cache/
+.parcel-cache/
+
+# Сборка
+dist/
+build/
